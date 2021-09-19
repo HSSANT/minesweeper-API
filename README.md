@@ -37,3 +37,21 @@ You need to fully complete the challenge. We suggest not spending more than 3 da
 What we want to see is how well you handle yourself given the time you spend on the problem, how you think, and how you prioritize when time is sufficient to solve everything.
 
 Please email your solution as soon as you have completed the challenge or the time is up
+
+
+# My Notes
+
+- Structure of project
+    - I use a DDD structure because I think that game is complex engough to build a domain.
+
+- MongoDB instead of SQL
+    - When i was thinking in the structure, the game information and cells information, I guess that will be more productive use a non-relational database to store the cells and game information, also non relational can store data with diferrent size  and could be more easier if the game need extra features/fields or data.
+
+- GameController bellow Cells Actions
+    - Create a specific controller to Cells wasn't necessary because the most important/strong Entity on this relation is the Game and the Cell hasn't any use out of a game.
+
+- timetracking
+    - I made the timetracking on the clean/easy way. 
+
+- Unittest
+    - I made unit tests but just for testing things out of services/repository because all this code are executed on startup and execute startup on unit test could bring unescessary complexity.
