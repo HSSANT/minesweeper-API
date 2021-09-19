@@ -1,0 +1,460 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/MineSweeper.UnitTest/MineSweeper.UnitTest.csproj": {}
+  },
+  "projects": {
+    "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/MineSweeper.UnitTest/MineSweeper.UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/MineSweeper.UnitTest/MineSweeper.UnitTest.csproj",
+        "projectName": "MineSweeper.UnitTest",
+        "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/MineSweeper.UnitTest/MineSweeper.UnitTest.csproj",
+        "packagesPath": "/Users/herbert/.nuget/packages/",
+        "outputPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/MineSweeper.UnitTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/herbert/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.API/MineSweeper.API.csproj": {
+                "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.API/MineSweeper.API.csproj"
+              },
+              "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Application/MineSweeper.Application.csproj": {
+                "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Application/MineSweeper.Application.csproj"
+              },
+              "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.CrossCutting.Auth/MineSweeper.CrossCutting.Auth.csproj": {
+                "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.CrossCutting.Auth/MineSweeper.CrossCutting.Auth.csproj"
+              },
+              "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Domain/MineSweeper.Domain.csproj": {
+                "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Domain/MineSweeper.Domain.csproj"
+              },
+              "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj": {
+                "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.API/MineSweeper.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.API/MineSweeper.API.csproj",
+        "projectName": "MineSweeper.API",
+        "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.API/MineSweeper.API.csproj",
+        "packagesPath": "/Users/herbert/.nuget/packages/",
+        "outputPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/herbert/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Application/MineSweeper.Application.csproj": {
+                "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Application/MineSweeper.Application.csproj"
+              },
+              "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj": {
+                "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AspNetCore.Identity.MongoDbCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.10, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Application/MineSweeper.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Application/MineSweeper.Application.csproj",
+        "projectName": "MineSweeper.Application",
+        "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Application/MineSweeper.Application.csproj",
+        "packagesPath": "/Users/herbert/.nuget/packages/",
+        "outputPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/herbert/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.CrossCutting.Auth/MineSweeper.CrossCutting.Auth.csproj": {
+                "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.CrossCutting.Auth/MineSweeper.CrossCutting.Auth.csproj"
+              },
+              "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Domain/MineSweeper.Domain.csproj": {
+                "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Domain/MineSweeper.Domain.csproj"
+              },
+              "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj": {
+                "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.CrossCutting.Auth/MineSweeper.CrossCutting.Auth.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.CrossCutting.Auth/MineSweeper.CrossCutting.Auth.csproj",
+        "projectName": "MineSweeper.CrossCutting.Auth",
+        "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.CrossCutting.Auth/MineSweeper.CrossCutting.Auth.csproj",
+        "packagesPath": "/Users/herbert/.nuget/packages/",
+        "outputPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.CrossCutting.Auth/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/herbert/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Domain/MineSweeper.Domain.csproj": {
+                "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Domain/MineSweeper.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Domain/MineSweeper.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Domain/MineSweeper.Domain.csproj",
+        "projectName": "MineSweeper.Domain",
+        "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Domain/MineSweeper.Domain.csproj",
+        "packagesPath": "/Users/herbert/.nuget/packages/",
+        "outputPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/herbert/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AspNetCore.Identity.MongoDbCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj",
+        "projectName": "MineSweeper.Infra.Data",
+        "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj",
+        "packagesPath": "/Users/herbert/.nuget/packages/",
+        "outputPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/herbert/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Domain/MineSweeper.Domain.csproj": {
+                "projectPath": "/Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/src/MineSweeper.Domain/MineSweeper.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

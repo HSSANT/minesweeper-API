@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\MineSweeper.API\MineSweeper.API.csproj" />
+    <ProjectReference Include="..\src\MineSweeper.Application\MineSweeper.Application.csproj" />
+    <ProjectReference Include="..\src\MineSweeper.CrossCutting.Auth\MineSweeper.CrossCutting.Auth.csproj" />
+    <ProjectReference Include="..\src\MineSweeper.Domain\MineSweeper.Domain.csproj" />
+    <ProjectReference Include="..\src\MineSweeper.Infra.Data\MineSweeper.Infra.Data.csproj" />
+  </ItemGroup>
+</Project>

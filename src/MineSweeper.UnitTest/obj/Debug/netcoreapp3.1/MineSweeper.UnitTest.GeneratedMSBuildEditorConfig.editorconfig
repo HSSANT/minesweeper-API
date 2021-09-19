@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MineSweeper.UnitTest
+build_property.ProjectDir = /Users/herbert/Downloads/devigetchallengeresolved/minesweeper-api/MineSweeper.UnitTest/
