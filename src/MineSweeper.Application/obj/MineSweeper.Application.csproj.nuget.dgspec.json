@@ -1,0 +1,282 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspace/minesweeper-API/MineSweeper.Application/MineSweeper.Application.csproj": {}
+  },
+  "projects": {
+    "/workspace/minesweeper-API/MineSweeper.Application/MineSweeper.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/minesweeper-API/MineSweeper.Application/MineSweeper.Application.csproj",
+        "projectName": "MineSweeper.Application",
+        "projectPath": "/workspace/minesweeper-API/MineSweeper.Application/MineSweeper.Application.csproj",
+        "packagesPath": "/home/gitpod/.nuget/packages/",
+        "outputPath": "/workspace/minesweeper-API/MineSweeper.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gitpod/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/workspace/minesweeper-API/MineSweeper.CrossCutting.Auth/MineSweeper.CrossCutting.Auth.csproj": {
+                "projectPath": "/workspace/minesweeper-API/MineSweeper.CrossCutting.Auth/MineSweeper.CrossCutting.Auth.csproj"
+              },
+              "/workspace/minesweeper-API/MineSweeper.Domain/MineSweeper.Domain.csproj": {
+                "projectPath": "/workspace/minesweeper-API/MineSweeper.Domain/MineSweeper.Domain.csproj"
+              },
+              "/workspace/minesweeper-API/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj": {
+                "projectPath": "/workspace/minesweeper-API/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/minesweeper-API/MineSweeper.CrossCutting.Auth/MineSweeper.CrossCutting.Auth.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/minesweeper-API/MineSweeper.CrossCutting.Auth/MineSweeper.CrossCutting.Auth.csproj",
+        "projectName": "MineSweeper.CrossCutting.Auth",
+        "projectPath": "/workspace/minesweeper-API/MineSweeper.CrossCutting.Auth/MineSweeper.CrossCutting.Auth.csproj",
+        "packagesPath": "/home/gitpod/.nuget/packages/",
+        "outputPath": "/workspace/minesweeper-API/MineSweeper.CrossCutting.Auth/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gitpod/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/workspace/minesweeper-API/MineSweeper.Domain/MineSweeper.Domain.csproj": {
+                "projectPath": "/workspace/minesweeper-API/MineSweeper.Domain/MineSweeper.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/minesweeper-API/MineSweeper.Domain/MineSweeper.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/minesweeper-API/MineSweeper.Domain/MineSweeper.Domain.csproj",
+        "projectName": "MineSweeper.Domain",
+        "projectPath": "/workspace/minesweeper-API/MineSweeper.Domain/MineSweeper.Domain.csproj",
+        "packagesPath": "/home/gitpod/.nuget/packages/",
+        "outputPath": "/workspace/minesweeper-API/MineSweeper.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gitpod/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AspNetCore.Identity.MongoDbCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/workspace/minesweeper-API/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspace/minesweeper-API/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj",
+        "projectName": "MineSweeper.Infra.Data",
+        "projectPath": "/workspace/minesweeper-API/MineSweeper.Infra.Data/MineSweeper.Infra.Data.csproj",
+        "packagesPath": "/home/gitpod/.nuget/packages/",
+        "outputPath": "/workspace/minesweeper-API/MineSweeper.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gitpod/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/workspace/minesweeper-API/MineSweeper.Domain/MineSweeper.Domain.csproj": {
+                "projectPath": "/workspace/minesweeper-API/MineSweeper.Domain/MineSweeper.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
