@@ -41,6 +41,13 @@ Please email your solution as soon as you have completed the challenge or the ti
 
 # My Notes
 
+
+- Projet deploy on heroku
+    - to see swagger and test the methods and anything else of project go to 
+    https://devget-minesweeper-api.herokuapp.com/swagger/index.html
+- Projet UI for play the project
+    - to go to my UI interface and play game go to  
+    https://deviget-minesweeper-ui.herokuapp.com
 - Structure of project
     - I use a DDD structure because I think that game is complex engough to build a domain.
 
@@ -55,3 +62,4 @@ Please email your solution as soon as you have completed the challenge or the ti
 
 - Unittest
     - I made unit tests but just for testing things out of services/repository because all this code are executed on startup and execute startup on unit test could bring unescessary complexity.
+
